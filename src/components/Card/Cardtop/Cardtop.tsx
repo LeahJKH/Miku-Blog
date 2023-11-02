@@ -1,4 +1,9 @@
-export default function Cardtop(props) {
+type CardProps = {
+  author: string;
+  date: string;
+};
+
+export default function Cardtop(props: CardProps) {
   return (
     <div className="row card-top">
       <div className="row">
