@@ -1,4 +1,4 @@
-export default function Cardtop() {
+export default function Cardtop(props) {
   return (
     <div className="row card-top">
       <div className="row">
@@ -8,8 +8,8 @@ export default function Cardtop() {
           className="Img"
         />
         <div className="column card-user">
-          <h3>generic name</h3>
-          <p>20.oct.2024</p>
+          <h3>{props.author}</h3>
+          <p>{props.date}</p>
         </div>
       </div>
       <button>❤ 2056</button>

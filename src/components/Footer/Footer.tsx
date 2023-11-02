@@ -1,8 +1,10 @@
 export default function Footer() {
+  const hello = "a greeting";
   return (
     <div>
       <footer>
-        <h4>© Kodehode 2024</h4>
+        <h3>{hello}</h3>
+        <h4>© Kodehode 2029</h4>
       </footer>
     </div>
   );
