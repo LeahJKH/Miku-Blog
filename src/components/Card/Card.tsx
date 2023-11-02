@@ -1,6 +1,13 @@
 import Cardtop from "./Cardtop/Cardtop.tsx";
 
-export default function Card(props) {
+type CardProps = {
+  author: string;
+  date: string;
+  title: string;
+  text: string;
+};
+
+export default function Card(props: CardProps) {
   return (
     <div className="card">
       <Cardtop author={props.author} date={props.date}></Cardtop>
