@@ -8,7 +8,7 @@ export default function Navbar() {
           id="profilePic"
         />
         <div>
-          <a className="linksbtn" href="https://github.com/DavidJKH">
+          <a className="linksbtn" href="https://github.com/DavidJKH" target="_blank">
             github
           </a>
           <a className="linksbtn" href="https://discordapp.com/users/1120608465900032062">

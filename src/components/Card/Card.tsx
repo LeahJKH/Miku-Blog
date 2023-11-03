@@ -1,4 +1,5 @@
 import Cardtop from "./Cardtop/Cardtop.tsx";
+import MainText from "./MainText/MainText.tsx";
 
 type CardProps = {
   data: {
@@ -6,6 +7,7 @@ type CardProps = {
     date: string;
     title: string;
     text: string;
+    textfull: string;
   };
 };
 
@@ -14,10 +16,7 @@ export default function Card(props: CardProps) {
     <div className="card">
       <Cardtop data={props}></Cardtop>
       <h3 className="left-push">{props.data.title}</h3>
-      <p className="left-push">{props.data.text}</p>
-      <a href="https://github.com/DavidJKH/ReactUke1" className="left-push">
-        read more...
-      </a>
+      <MainText data={props}></MainText>
     </div>
   );
 }

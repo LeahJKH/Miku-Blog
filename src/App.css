@@ -119,3 +119,9 @@ main {
   height: 20px;
   width: 20px;
 }
+.coldbtn {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 20px;
+  cursor: pointer;
+}

@@ -1,3 +1,4 @@
+import { useState } from "react";
 type CardProps = {
   data: {
     data: {
@@ -10,6 +11,17 @@ type CardProps = {
 };
 
 export default function Cardtop(props: CardProps) {
+  const [textColor, setTextColor] = useState("white");
+
+  const handleColorChange = () => {
+    const newColor = textColor === "white" ? "red" : "white";
+    setTextColor(newColor);
+  };
+  const styles = {
+    content: {
+      color: "white",
+    },
+  };
   return (
     <div className="row card-top">
       <div className="row">
@@ -23,7 +35,12 @@ export default function Cardtop(props: CardProps) {
           <p>{props.data.data.date}</p>
         </div>
       </div>
-      <button>❤ 2056</button>
+      <button onClick={handleColorChange} className="butt">
+        <span id="content" style={{ ...styles.content, color: textColor }}>
+          ❤
+        </span>
+        2056
+      </button>
     </div>
   );
 }
