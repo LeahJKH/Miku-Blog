@@ -1,3 +1,4 @@
+import { useState } from "react";
 type CardProps = {
   data: {
     data: {
@@ -9,32 +10,24 @@ type CardProps = {
     };
   };
 };
+
 export default function MainText(data: CardProps) {
-  let switchK: boolean = true;
-  const handleTxtGrowth = () => {
-    if (switchK === true) {
-      switchK = false;
-    } else if (switchK === false) {
-      switchK = true;
-    }
+  const [showMore, setMore] = useState(false);
+
+  const toggleShowMore = () => {
+    setMore(!showMore);
   };
-  if (switchK) {
-    return (
-      <div>
-        <p>{data.data.data.text}</p>
-        <button className="left-push coldbtn" onClick={handleTxtGrowth}>
-          read more...
-        </button>
-      </div>
-    );
-  } else if (switchK === false) {
-    return (
-      <div>
-        <p>{data.data.data.textfull}</p>
-        <button className="left-push coldbtn" onClick={handleTxtGrowth}>
-          read less...
-        </button>
-      </div>
-    );
-  }
+
+  const displayMore = showMore
+    ? data.data.data.text + "" + data.data.data.textfull
+    : data.data.data.text;
+
+  return (
+    <div>
+      <p>{displayMore}</p>
+      <button className="left-push coldbtn" onClick={toggleShowMore}>
+        {showMore ? "Read less" : "Read more..."}
+      </button>
+    </div>
+  );
 }

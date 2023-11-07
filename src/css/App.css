@@ -64,7 +64,7 @@ main {
 }
 
 .card {
-  width: 800px;
+  width: 60%;
   height: fit-content;
   background-color: #161515;
   margin-top: 20px;

@@ -1,4 +1,4 @@
-import "./App.css";
+import "./css/App.css";
 import Footer from "./components/Footer/Footer.tsx";
 import Navbar from "./components/navbar/Navbar.tsx";
 import Card from "./components/Card/Card.tsx";
