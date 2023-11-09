@@ -42,7 +42,7 @@ export default function Cardtop(props: CardProps) {
         throw new Error("Request failed with status code: " + response.status);
       }
     });
-  }, []); // Empty dependency array ensures that the effect runs only once on mount
+  }); // Empty dependency array ensures that the effect runs only once on mount
 
   return (
     <div className="row card-top">

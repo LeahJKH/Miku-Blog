@@ -1,3 +1,4 @@
+import "../../css/App.css";
 export default function Navbar() {
   return (
     <div>
@@ -7,7 +8,18 @@ export default function Navbar() {
           alt=""
           id="profilePic"
         />
-        <div></div>
+        <div>
+          <a href="https://github.com/DavidJKH/ReactUke1" className="linksbtn">
+            Github
+          </a>
+          <a
+            href="https://www.figma.com/file/A6wYm5wYm9hTtqKBJtcE1y/react-uke-1?type=design&node-id=0-1&mode=design&t=uKJLeyHMQwuTxUHd-0"
+            className="linksbtn"
+          >
+            {" "}
+            figma
+          </a>
+        </div>
       </nav>
     </div>
   );
