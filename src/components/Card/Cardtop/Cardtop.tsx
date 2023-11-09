@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { useState } from "react";
+import { useState, useEffect } from "react";
 type CardProps = {
   author: string;
   date: string;
@@ -7,6 +7,7 @@ type CardProps = {
   text: string;
   textfull: string;
   likes: number;
+  pic: string;
 };
 
 export default function Cardtop(props: CardProps) {
@@ -27,14 +28,26 @@ export default function Cardtop(props: CardProps) {
       color: "white",
     },
   };
+
+  const [newPic, setNewPic] = useState("");
+
+  useEffect(() => {
+    const apiUrl = "http://placekitten.com/";
+
+    fetch(apiUrl).then((response) => {
+      if (response.ok) {
+        const picUrl = apiUrl + props.pic;
+        setNewPic(picUrl);
+      } else {
+        throw new Error("Request failed with status code: " + response.status);
+      }
+    });
+  }, []); // Empty dependency array ensures that the effect runs only once on mount
+
   return (
     <div className="row card-top">
       <div className="row">
-        <img
-          src="https://www.martela.com/sites/default/files/styles/metaproduct/public/pim2022_files/MU43_light_grey_melamine_fullHD.jpeg?itok=AwEXbLz1"
-          alt="a grey temp photo for a user"
-          className="Img"
-        />
+        <img src={newPic} alt="a grey temp photo for a user" className="Img" />
 
         <div className="column card-user">
           <h3>{props.author}</h3>
