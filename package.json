@@ -1,4 +1,14 @@
 {
+  "lighthouse": {
+    "name": "lighthouse-ci-action",
+    "version": "9.6.8",
+    "license": "MIT",
+    "description": "Run Lighthouse in CI using Github Actions",
+    "repository": "treosh/lighthouse-ci-action",
+    "engines": {
+      "node": ">=16"
+    }
+  },
   "name": "reactuke1",
   "private": true,
   "version": "0.0.0",
