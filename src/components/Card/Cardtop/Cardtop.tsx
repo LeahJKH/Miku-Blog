@@ -34,20 +34,28 @@ export default function Cardtop(props: CardProps) {
   useEffect(() => {
     const apiUrl = "http://placekitten.com/";
 
-    fetch(apiUrl).then((response) => {
-      if (response.ok) {
-        const picUrl = apiUrl + props.pic;
-        setNewPic(picUrl);
-      } else {
-        throw new Error("Request failed with status code: " + response.status);
+    const fetchData = async () => {
+      try {
+        const response = await fetch(apiUrl);
+
+        if (response.ok) {
+          const picUrl = apiUrl + props.pic;
+          setNewPic(picUrl);
+        } else {
+          throw new Error("Request failed with status code: " + response.status);
+        }
+      } catch (error) {
+        console.error("Error fetching data:", error);
       }
-    });
-  }); // Empty dependency array ensures that the effect runs only once on mount
+    };
+
+    fetchData();
+  }, [props.pic]);
 
   return (
     <div className="row card-top">
       <div className="row">
-        <img src={newPic} alt="a grey temp photo for a user" className="Img" />
+        <img src={newPic} alt="the users profile pic" className="Img" />
 
         <div className="column card-user">
           <h3>{props.author}</h3>
