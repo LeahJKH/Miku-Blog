@@ -32,7 +32,7 @@ export default function Cardtop(props: CardProps) {
   const [newPic, setNewPic] = useState("");
 
   useEffect(() => {
-    const apiUrl = "http://placekitten.com/";
+    const apiUrl = "https://placekitten.com/";
 
     const fetchData = async () => {
       try {
