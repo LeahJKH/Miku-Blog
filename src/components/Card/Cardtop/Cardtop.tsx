@@ -1,13 +1,10 @@
 import { useState } from "react";
 type CardProps = {
-  data: {
-    data: {
-      author: string;
-      date: string;
-      title: string;
-      text: string;
-    };
-  };
+  author: string;
+  date: string;
+  title: string;
+  text: string;
+  textfull: string;
 };
 
 export default function Cardtop(props: CardProps) {
@@ -31,8 +28,8 @@ export default function Cardtop(props: CardProps) {
           className="Img"
         />
         <div className="column card-user">
-          <h3>{props.data.data.author}</h3>
-          <p>{props.data.data.date}</p>
+          <h3>{props.author}</h3>
+          <p>{props.date}</p>
         </div>
       </div>
       <button onClick={handleColorChange} className="butt">

@@ -1,8 +1,8 @@
-import { useState } from "react";
+/*import { useState } from "react";
 import Home from "./home";
-import Fourohfour from "./fourogfour";
+import AboutPage from "./AboutPage";
 
-function PageSwitcher() {
+export default function PageSwitcher() {
   const [currentPage, setCurrentPage] = useState("home"); // Initial page
 
   const handlePageChange = (pageName: string) => {
@@ -16,10 +16,9 @@ function PageSwitcher() {
       <button onClick={() => handlePageChange("contact")}>Contact</button>
 
       {currentPage === "home" && <Home />}
-      {currentPage === "about" && <Fourohfour />}
-      {currentPage === "contact" && <Fourohfour />}
+      {currentPage === "about" && <AboutPage />}
+      {currentPage === "contact" && <AboutPage />}
     </div>
   );
 }
-
-export default PageSwitcher;
+*/
