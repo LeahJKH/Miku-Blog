@@ -6,6 +6,7 @@ type CardProps = {
   title: string;
   text: string;
   textfull: string;
+  likes: number;
 };
 
 export default function MainText(prop: CardProps) {

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useState } from "react";
 type CardProps = {
   author: string;
@@ -5,10 +6,17 @@ type CardProps = {
   title: string;
   text: string;
   textfull: string;
+  likes: number;
 };
 
 export default function Cardtop(props: CardProps) {
   const [textColor, setTextColor] = useState("white");
+  const [like, setLikeCounter] = useState(props.likes);
+
+  const handleLikeChange = () => {
+    const newLike = like === props.likes ? like + 1 : like - 1;
+    setLikeCounter(newLike);
+  };
 
   const handleColorChange = () => {
     const newColor = textColor === "white" ? "red" : "white";
@@ -27,16 +35,23 @@ export default function Cardtop(props: CardProps) {
           alt="a grey temp photo for a user"
           className="Img"
         />
+
         <div className="column card-user">
           <h3>{props.author}</h3>
           <p>{props.date}</p>
         </div>
       </div>
-      <button onClick={handleColorChange} className="butt">
+      <button
+        onClick={(_e: React.MouseEvent<HTMLButtonElement>) => {
+          handleColorChange();
+          handleLikeChange();
+        }}
+        className="butt"
+      >
         <span id="content" style={{ ...styles.content, color: textColor }}>
           ❤
         </span>
-        2056
+        {" " + like}
       </button>
     </div>
   );
