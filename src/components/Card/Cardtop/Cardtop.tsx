@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useState, useEffect } from "react";
+import NetworkFail from "../../Api-responses/NetworkFail";
 type CardProps = {
   author: string;
   date: string;
@@ -31,6 +32,8 @@ export default function Cardtop(props: CardProps) {
 
   const [newPic, setNewPic] = useState("");
 
+  const [apiError, setApiError] = useState(false); // New state to track API error
+
   useEffect(() => {
     const apiUrl = "https://placekitten.com/";
 
@@ -42,38 +45,43 @@ export default function Cardtop(props: CardProps) {
           const picUrl = apiUrl + props.pic;
           setNewPic(picUrl);
         } else {
-          throw new Error("Request failed with status code: " + response.status);
+          throw new Error(`Network request failed with status ${response.status}`);
         }
       } catch (error) {
         console.error("Error fetching data:", error);
+        setApiError(true); // Set the state to true if there's an API error
       }
     };
 
     fetchData();
   }, [props.pic]);
 
-  return (
-    <div className="row card-top">
-      <div className="row">
-        <img src={newPic} alt="the users profile pic" className="Img" />
+  if (apiError) {
+    return <NetworkFail responseReceived={false} responseDamaged={false} missingData={false} />;
+  } else {
+    return (
+      <div className="row card-top">
+        <div className="row">
+          <img src={newPic} alt="the users profile pic" className="Img" />
 
-        <div className="column card-user">
-          <h3>{props.author}</h3>
-          <p>{props.date}</p>
+          <div className="column card-user">
+            <h3>{props.author}</h3>
+            <p>{props.date}</p>
+          </div>
         </div>
+        <button
+          onClick={(_e: React.MouseEvent<HTMLButtonElement>) => {
+            handleColorChange();
+            handleLikeChange();
+          }}
+          className="butt"
+        >
+          <span id="content" style={{ ...styles.content, color: textColor }}>
+            ❤
+          </span>
+          {" " + like}
+        </button>
       </div>
-      <button
-        onClick={(_e: React.MouseEvent<HTMLButtonElement>) => {
-          handleColorChange();
-          handleLikeChange();
-        }}
-        className="butt"
-      >
-        <span id="content" style={{ ...styles.content, color: textColor }}>
-          ❤
-        </span>
-        {" " + like}
-      </button>
-    </div>
-  );
+    );
+  }
 }
