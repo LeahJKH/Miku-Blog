@@ -31,15 +31,40 @@ export default function Cardtop(props: CardProps) {
   };
 
   const [newPic, setNewPic] = useState("");
-
-  const [apiError, setApiError] = useState(false); // New state to track API error
+  const [apiError, setApiError] = useState(false);
 
   useEffect(() => {
     const apiUrl = "https://placekitten.com/";
 
     const fetchData = async () => {
       try {
-        const response = await fetch(apiUrl);
+        let response;
+
+        // Choose the error scenario by changing the value
+        const errorScenario = `NetworkFailure`;
+
+        switch (errorScenario) {
+          case `NetworkFailure`: {
+            // Simulate network failure
+            response = await fetch("invalid-url");
+            break;
+          }
+          case `DamagedResponse`: {
+            response = await fetch(apiUrl + "invalid-pic");
+            break;
+          }
+          case `MissingData`: {
+            response = await fetch(apiUrl);
+            break;
+          }
+          case `SuccessfulResponse`: {
+            response = await fetch(apiUrl + props.pic);
+            break;
+          }
+          default: {
+            response = await fetch(apiUrl + props.pic);
+          }
+        }
 
         if (response.ok) {
           const picUrl = apiUrl + props.pic;
@@ -49,7 +74,7 @@ export default function Cardtop(props: CardProps) {
         }
       } catch (error) {
         console.error("Error fetching data:", error);
-        setApiError(true); // Set the state to true if there's an API error
+        setApiError(true);
       }
     };
 
@@ -63,7 +88,6 @@ export default function Cardtop(props: CardProps) {
       <div className="row card-top">
         <div className="row">
           <img src={newPic} alt="the users profile pic" className="Img" />
-
           <div className="column card-user">
             <h3>{props.author}</h3>
             <p>{props.date}</p>
