@@ -33,53 +33,54 @@ export default function Cardtop(props: CardProps) {
   const [newPic, setNewPic] = useState("");
   const [apiError, setApiError] = useState(false);
 
-  useEffect(() => {
+  useEffect() => {
     const apiUrl = "https://placekitten.com/";
 
     const fetchData = async () => {
       try {
-        let response;
+        let response = null
 
-        // Choose the error scenario by changing the value
-        const errorScenario = `NetworkFailure`;
-
-        switch (errorScenario) {
-          case `NetworkFailure`: {
-            // Simulate network failure
+        
+NetworkFailure()
+        
+          function NetworkFailure() {
             response = await fetch("invalid-url");
-            break;
+           
           }
-          case `DamagedResponse`: {
+          function DamagedResponse() {
             response = await fetch(apiUrl + "invalid-pic");
-            break;
+         
           }
-          case `MissingData`: {
+           function MissingData() {
             response = await fetch(apiUrl);
-            break;
+      
           }
-          case `SuccessfulResponse`: {
+           function SuccessfulResponse() {
             response = await fetch(apiUrl + props.pic);
-            break;
+        
           }
-          default: {
+          function normal() {
             response = await fetch(apiUrl + props.pic);
           }
         }
-
+      catch {
         if (response.ok) {
           const picUrl = apiUrl + props.pic;
           setNewPic(picUrl);
         } else {
           throw new Error(`Network request failed with status ${response.status}`);
         }
-      } catch (error) {
+      } 
+    }
+      catchit(response.error)
+      function catchit(error: null) {
         console.error("Error fetching data:", error);
         setApiError(true);
       }
     };
 
     fetchData();
-  }, [props.pic]);
+  }, [props.pic];;
 
   if (apiError) {
     return <NetworkFail responseReceived={false} responseDamaged={false} missingData={false} />;
