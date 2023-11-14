@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import NetworkFail from "../../Api-responses/NetworkFail";
+
 type CardProps = {
   author: string;
   date: string;
@@ -24,6 +25,7 @@ export default function Cardtop(props: CardProps) {
     const newColor = textColor === "white" ? "red" : "white";
     setTextColor(newColor);
   };
+
   const styles = {
     content: {
       color: "white",
@@ -33,54 +35,31 @@ export default function Cardtop(props: CardProps) {
   const [newPic, setNewPic] = useState("");
   const [apiError, setApiError] = useState(false);
 
-  useEffect() => {
-    const apiUrl = "https://placekitten.com/";
+  const apiUrl = "https://placekitten.com/";
 
-    const fetchData = async () => {
-      try {
-        let response = null
+  const fetchData = async () => {
+    try {
+      let response = null;
 
-        
-NetworkFailure()
-        
-          function NetworkFailure() {
-            response = await fetch("invalid-url");
-           
-          }
-          function DamagedResponse() {
-            response = await fetch(apiUrl + "invalid-pic");
-         
-          }
-           function MissingData() {
-            response = await fetch(apiUrl);
-      
-          }
-           function SuccessfulResponse() {
-            response = await fetch(apiUrl + props.pic);
-        
-          }
-          function normal() {
-            response = await fetch(apiUrl + props.pic);
-          }
-        }
-      catch {
-        if (response.ok) {
-          const picUrl = apiUrl + props.pic;
-          setNewPic(picUrl);
-        } else {
-          throw new Error(`Network request failed with status ${response.status}`);
-        }
-      } 
-    }
-      catchit(response.error)
-      function catchit(error: null) {
-        console.error("Error fetching data:", error);
-        setApiError(true);
+      // Example: NetworkFailure
+      response = await fetch("invalid-url");
+
+      if (response.ok) {
+        const picUrl = apiUrl + props.pic;
+        setNewPic(picUrl);
+      } else {
+        throw new Error(`Network request failed with status ${response.status}`);
       }
-    };
+    } catch (error) {
+      console.error("Error fetching data:", error);
+      setApiError(true);
+    }
+  };
 
+  // Call fetchData when the component mounts
+  useState(() => {
     fetchData();
-  }, [props.pic];;
+  });
 
   if (apiError) {
     return <NetworkFail responseReceived={false} responseDamaged={false} missingData={false} />;
