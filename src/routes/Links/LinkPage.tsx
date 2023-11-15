@@ -8,6 +8,7 @@ function Links() {
     <div>
       <Navbar></Navbar>
       <main>
+        <h1>LINKS</h1>
         {LinksInfo.map((link) => (
           <a key={link.name} href={link.Links}>
             {link.name}
