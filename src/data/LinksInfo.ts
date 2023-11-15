@@ -11,4 +11,12 @@ export const LinksInfo = [
     name: "Discord",
     Links: "https://discordapp.com/users/1120608465900032062",
   },
+  {
+    name: "Discord server",
+    Links: "https://discord.gg/ppVQKJpjQf",
+  },
+  {
+    name: "Discord server",
+    Links: "https://discord.gg/ppVQKJpjQf",
+  },
 ];

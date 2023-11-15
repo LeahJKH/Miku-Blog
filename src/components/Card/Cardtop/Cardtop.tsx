@@ -42,7 +42,7 @@ export default function Cardtop(props: CardProps) {
       let response = null;
 
       // Example: NetworkFailure
-      response = await fetch("invalid-url");
+      response = await fetch(apiUrl);
 
       if (response.ok) {
         const picUrl = apiUrl + props.pic;

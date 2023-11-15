@@ -1,0 +1,10 @@
+.title-about {
+  font-size: 60px;
+}
+#contain-about {
+  width: 700px;
+  font-size: 18px;
+}
+#contain-about > p {
+  margin: 15px;
+}
