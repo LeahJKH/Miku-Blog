@@ -134,3 +134,6 @@ main {
   top: 0;
   border: white;
 }
+#title-page {
+  font-size: 60px;
+}

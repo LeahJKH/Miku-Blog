@@ -1,6 +1,5 @@
 // NetworkFail.tsx
 import React from "react";
-import "../../css/App.css";
 
 type NetworkFailProps = {
   responseReceived?: boolean;
