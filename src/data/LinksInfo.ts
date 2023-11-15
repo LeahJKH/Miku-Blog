@@ -16,7 +16,7 @@ export const LinksInfo = [
     Links: "https://discord.gg/ppVQKJpjQf",
   },
   {
-    name: "Discord server",
-    Links: "https://discord.gg/ppVQKJpjQf",
+    name: "facebook",
+    Links: "/Error/",
   },
 ];
