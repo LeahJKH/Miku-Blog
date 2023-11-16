@@ -1,12 +1,6 @@
-.title-about {
-  font-size: 60px;
-}
-#contain-about {
+#center > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-#contain-about > p {
-  margin: 15px;
 }

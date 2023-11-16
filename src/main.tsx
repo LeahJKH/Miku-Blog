@@ -7,22 +7,27 @@ import Home from "./routes/Home";
 import Links from "./routes/Links/LinkPage";
 import About from "./routes/About/AboutPage";
 import Error from "./routes/Error/Error";
+import Layout from "./routes/Layout";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home></Home>,
+    element: <Layout></Layout>,
     errorElement: <Error></Error>,
-  },
-  {
-    path: "about/",
-    element: <About></About>,
-    errorElement: <Error></Error>,
-  },
-  {
-    path: "Links/",
-    element: <Links></Links>,
-    errorElement: <Error></Error>,
+    children: [
+      {
+        index: true,
+        element: <Home></Home>,
+      },
+      {
+        path: "about/",
+        element: <About></About>,
+      },
+      {
+        path: "Links/",
+        element: <Links></Links>,
+      },
+    ],
   },
   {
     path: "Error/",

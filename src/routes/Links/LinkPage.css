@@ -1,8 +1,28 @@
-main > a {
+.linkWeb {
   font-size: 25px;
   margin: 10px 0;
   border: 4px solid white;
   box-shadow: 0px 0px 10px rgba(110, 110, 110, 0.552);
   border-radius: 20px;
   padding: 15px;
+}
+nav {
+  position: static;
+  top: 0;
+  background-color: rgb(83, 83, 216);
+  width: 100vw;
+  height: 150px;
+  display: flex;
+  margin-top: -20px;
+  padding-right: 30px;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+}
+footer {
+  background-color: rgb(83, 83, 216);
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  padding: 20px;
 }

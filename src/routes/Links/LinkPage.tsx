@@ -1,21 +1,17 @@
 import "./LinkPage.css";
-import Navbar from "../../components/navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
+
 import { LinksInfo } from "../../data/LinksInfo";
 
 function Links() {
   return (
     <div>
-      <Navbar></Navbar>
-      <main>
-        <h1>LINKS</h1>
-        {LinksInfo.map((link) => (
-          <a key={link.name} href={link.Links}>
-            {link.name}
-          </a>
-        ))}
-      </main>
-      <Footer></Footer>
+      <h1>LINKS</h1>
+
+      {LinksInfo.map((link) => (
+        <a className="linkWeb" key={link.name} href={link.Links}>
+          {link.name}
+        </a>
+      ))}
     </div>
   );
 }
