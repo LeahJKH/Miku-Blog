@@ -1,7 +1,7 @@
 export const LinksInfo = [
   {
     name: "Github",
-    Links: "https://github.com/DavidJKH",
+    Links: "https://github.com/LeahJKH",
   },
   {
     name: "YouTube",
