@@ -3,6 +3,9 @@
   justify-content: center;
   align-items: center;
 }
+body {
+  overflow-x: hidden;
+}
 
 * {
   margin: 0;

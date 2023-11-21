@@ -10,3 +10,6 @@ body {
 h1 {
   font-size: 100px;
 }
+.ErrorPage {
+  height: 70vh;
+}
