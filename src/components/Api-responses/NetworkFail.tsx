@@ -26,7 +26,7 @@ const NetworkFail: React.FC<NetworkFailProps> = ({
 
   return (
     <div className="errCard">
-      <h1>ERROR</h1>
+      <p>ERROR</p>
       <p>{message}</p>
       {responseReceived && <p>Request failed</p>}
     </div>
