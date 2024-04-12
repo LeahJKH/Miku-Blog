@@ -129,4 +129,214 @@ export const cardInfo = [
     likes: 1,
     pic: "125/125",
   },
+  {
+    title: "Miku's Galactic Symphony",
+    author: "StellarSounds",
+    date: "03.03.2024",
+    text: "Embark on a cosmic journey with Hatsune Miku as she conducts a symphony among the stars. Her holographic melodies resonate through the cosmos, uniting galaxies in a celestial harmony that transcends time and space.",
+    textfull:
+      "Prepare for a celestial concert like no other with Hatsune Miku! Embark on a cosmic journey as her holographic melodies resonate through the vast expanse of space. With each note, she conducts a symphony among the stars, uniting galaxies in a celestial harmony that transcends time and space. It's a musical odyssey that will leave you stargazing in wonder.",
+    likes: 789,
+    pic: "180/180",
+  },
+  {
+    title: "Miku's Underwater Serenade",
+    author: "AquaAria",
+    date: "21.07.2023",
+    text: "Dive into the depths of the ocean with Hatsune Miku as she serenades aquatic creatures with her pixelated tunes. Her holographic form dances amidst coral reefs, creating a mesmerizing underwater spectacle that enchants all who behold it.",
+    textfull:
+      "Explore the wonders of the deep sea with Hatsune Miku! Dive into the ocean depths as her holographic form serenades aquatic creatures with her pixelated tunes. Amidst coral reefs and swaying seaweed, Miku's underwater serenade creates a mesmerizing spectacle that enchants all who behold it. It's a journey beneath the waves that will leave you breathless.",
+    likes: 654,
+    pic: "170/170",
+  },
+  {
+    title: "Miku's Space Station Soiree",
+    author: "GalacticGala",
+    date: "09.09.2023",
+    text: "Join Hatsune Miku for a zero-gravity soirée aboard the ISS! Her holographic performances light up the space station, transforming it into a cosmic dance floor where astronauts and aliens alike groove to the beat of the universe.",
+    textfull:
+      "Get ready to party in zero gravity with Hatsune Miku! Join her aboard the International Space Station for a cosmic soirée like no other. Her holographic performances light up the space station, transforming it into a cosmic dance floor where astronauts and aliens alike groove to the beat of the universe. It's a space station soiree that's out of this world!",
+    likes: 567,
+    pic: "190/190",
+  },
+  {
+    title: "Miku's Virtual Reality Vacation",
+    author: "VRVoyager",
+    date: "14.04.2024",
+    text: "Escape reality and embark on a virtual vacation with Hatsune Miku! Immerse yourself in holographic landscapes and pixelated paradises as Miku guides you on a journey through the wonders of the virtual realm.",
+    textfull:
+      "Leave reality behind and embark on the ultimate virtual vacation with Hatsune Miku! Immerse yourself in holographic landscapes and pixelated paradises as Miku guides you on a journey through the wonders of the virtual realm. From tranquil beaches to majestic mountains, every destination is a breathtaking adventure waiting to be explored. So pack your virtual bags and let Miku be your guide to a world of endless possibilities!",
+    likes: 876,
+    pic: "200/200",
+  },
+  {
+    title: "Miku's Cybernetic Concerto",
+    author: "CyberSymphony",
+    date: "27.11.2023",
+    text: "Witness the fusion of music and technology in Hatsune Miku's cybernetic concerto! Her holographic performances are enhanced by cybernetic enhancements, creating a sensory symphony that pushes the boundaries of human perception.",
+    textfull:
+      "Prepare to be amazed by the cybernetic concerto of Hatsune Miku! Witness the fusion of music and technology as her holographic performances are enhanced by cybernetic enhancements. From neural implants to augmented reality overlays, every aspect of the concert is designed to push the boundaries of human perception. It's a sensory symphony that will leave you questioning the limits of reality.",
+    likes: 987,
+    pic: "210/210",
+  },
+  {
+    title: "Miku's Retro Remix",
+    author: "RetroRaver",
+    date: "05.05.2023",
+    text: "Travel back in time with Hatsune Miku as she remixes retro tunes with a pixelated twist! From 8-bit beats to synthwave sensations, her holographic performances pay homage to the classics while bringing a futuristic flair to the dance floor.",
+    textfull:
+      "Get ready to groove to the retro remixes of Hatsune Miku! Travel back in time as she brings a pixelated twist to classic tunes from the past. From 8-bit beats to synthwave sensations, her holographic performances pay homage to the classics while bringing a futuristic flair to the dance floor. It's a retro rave that will transport you to a bygone era while keeping your feet firmly planted in the future.",
+    likes: 765,
+    pic: "220/220",
+  },
+  {
+    title: "Miku's Neon Nightlife",
+    author: "NeonNomad",
+    date: "18.08.2023",
+    text: "Step into the neon-lit streets with Hatsune Miku as your guide to the electrifying nightlife of the future! Her holographic performances illuminate the cityscape, turning every corner into a pixelated dance floor where the beats never stop.",
+    textfull:
+      "Experience the electrifying nightlife of the future with Hatsune Miku! Step into the neon-lit streets as her holographic performances illuminate the cityscape. From underground clubs to rooftop parties, Miku turns every corner into a pixelated dance floor where the beats never stop. It's a neon nightlife that will leave you buzzing with excitement.",
+    likes: 654,
+    pic: "230/230",
+  },
+  {
+    title: "Miku's Quantum Quest",
+    author: "QuantumQuill",
+    date: "02.02.2024",
+    text: "Join Hatsune Miku on a quantum quest through the fabric of reality! Her holographic avatar becomes a beacon of light in the quantum darkness, guiding adventurers on a journey to unlock the mysteries of the multiverse.",
+    textfull:
+      "Embark on a quantum quest with Hatsune Miku! Journey through the fabric of reality as her holographic avatar becomes a beacon of light in the quantum darkness. Together, you'll unravel the mysteries of the multiverse and discover the boundless possibilities that lie beyond. It's a journey that will challenge your perceptions and expand your horizons.",
+    likes: 876,
+    pic: "240/240",
+  },
+  {
+    title: "Miku's Pixelated Picnic",
+    author: "PixelPicnicker",
+    date: "07.07.2023",
+    text: "Join Hatsune Miku for a pixelated picnic in the park! Her holographic form creates the perfect atmosphere for an outdoor feast, where every bite is accompanied by a symphony of pixelated melodies.",
+    textfull:
+      "Pack your basket and join Hatsune Miku for a pixelated picnic in the park! Spread out your blanket as her holographic form creates the perfect atmosphere for an outdoor feast. With every bite, you'll be serenaded by a symphony of pixelated melodies that transport you to a world of whimsy and wonder. It's a picnic unlike any other, where the only limit is your imagination.",
+    likes: 543,
+    pic: "250/250",
+  },
+  {
+    title: "Miku's Techno Tea Party",
+    author: "TechTeaTime",
+    date: "23.03.2024",
+    text: "Sip on some virtual tea and jam to the techno beats with Hatsune Miku! Her holographic performances turn tea time into a high-energy dance party, where every sip is accompanied by a burst of pixelated energy.",
+    textfull:
+      "Pour yourself a cup of virtual tea and get ready to jam with Hatsune Miku! Her holographic performances turn tea time into a high-energy dance party, where every sip is accompanied by a burst of pixelated energy. It's a techno tea party that will leave you buzzing with excitement.",
+    likes: 432,
+    pic: "260/260",
+  },
+  {
+    title: "Miku's Cyberpunk Carnival",
+    author: "CyberCarnival",
+    date: "11.11.2023",
+    text: "Step into the neon-lit world of cyberpunk with Hatsune Miku as your guide to the ultimate carnival of the future! Her holographic performances light up the night sky, transforming the city into a pixelated playground of thrills and excitement.",
+    textfull:
+      "Enter the neon-lit world of cyberpunk with Hatsune Miku! Follow her through the streets of the future as she guides you to the ultimate carnival experience. With her holographic performances lighting up the night sky, the city becomes a pixelated playground of thrills and excitement. It's a cyberpunk carnival that will leave you breathless.",
+    likes: 789,
+    pic: "270/270",
+  },
+  {
+    title: "Miku's Retrograde Rendezvous",
+    author: "RetroRevolution",
+    date: "26.06.2024",
+    text: "Travel back in time with Hatsune Miku for a retrograde rendezvous through the annals of history! Her holographic performances bring the past to life, turning every era into a pixelated paradise of nostalgia and fun.",
+    textfull:
+      "Join Hatsune Miku for a retrograde rendezvous through the annals of history! Travel back in time as her holographic performances bring the past to life. From ancient civilizations to the swinging sixties, every era becomes a pixelated paradise of nostalgia and fun. It's a journey through time that will leave you longing for the past.",
+    likes: 654,
+    pic: "280/280",
+  },
+  {
+    title: "Miku's Virtual Vacation",
+    author: "VirtualVoyager",
+    date: "30.09.2023",
+    text: "Escape reality and embark on a virtual vacation with Hatsune Miku! From tropical beaches to snowy mountains, her holographic adventures offer a getaway to destinations beyond imagination.",
+    textfull:
+      "Leave reality behind and embark on the ultimate virtual vacation with Hatsune Miku! Explore tropical beaches, scale snowy mountains, and traverse lush jungles as her holographic adventures take you to destinations beyond imagination. It's a vacation like no other, where the only limit is your imagination.",
+    likes: 543,
+    pic: "290/290",
+  },
+  {
+    title: "Miku's Symphony in Silence",
+    author: "SilentSymphony",
+    date: "15.12.2023",
+    text: "Experience the beauty of silence with Hatsune Miku's symphony in silence! Her holographic performances transcend sound, creating a sensory experience that speaks to the soul in whispers of pixelated poetry.",
+    textfull:
+      "Enter the realm of silence with Hatsune Miku's symphony in silence! Experience the beauty of soundless melodies as her holographic performances transcend sound, speaking to the soul in whispers of pixelated poetry. It's a sensory experience that will leave you speechless.",
+    likes: 876,
+    pic: "300/300",
+  },
+  {
+    title: "Miku's Holographic Hideaway",
+    author: "HoloHaven",
+    date: "04.08.2024",
+    text: "Escape to a holographic hideaway with Hatsune Miku! Her virtual paradise offers a sanctuary from the chaos of the world, where pixelated dreams become reality and the only limit is your imagination.",
+    textfull:
+      "Seek refuge in a holographic hideaway with Hatsune Miku! Escape to her virtual paradise, where pixelated dreams become reality and the only limit is your imagination. From tranquil gardens to futuristic cities, every corner of Miku's hideaway is a testament to the power of creativity and imagination.",
+    likes: 987,
+    pic: "310/310",
+  },
+  {
+    title: "Miku's Enchanted Garden",
+    author: "GardenGazer",
+    date: "19.01.2024",
+    text: "Step into the magical world of Hatsune Miku's enchanted garden! Her holographic creations bloom with pixelated beauty, inviting visitors to wander through a wonderland of whimsy and wonder.",
+    textfull:
+      "Enter the magical realm of Hatsune Miku's enchanted garden! Step through the gates as her holographic creations bloom with pixelated beauty, inviting visitors to wander through a wonderland of whimsy and wonder. It's a garden unlike any other, where every flower tells a story and every path leads to adventure.",
+    likes: 654,
+    pic: "320/320",
+  },
+  {
+    title: "Miku's Pixelated Paradise",
+    author: "PixelPioneer",
+    date: "22.10.2023",
+    text: "Discover a pixelated paradise with Hatsune Miku as your guide! Her holographic realm is a utopia of creativity and imagination, where every pixel tells a story and every dream becomes reality.",
+    textfull:
+      "Embark on a journey through the pixelated paradise of Hatsune Miku! Discover a utopia of creativity and imagination as her holographic realm comes to life before your eyes. From towering skyscrapers to rolling meadows, every corner is a testament to the power of dreams and the beauty of the virtual world.",
+    likes: 543,
+    pic: "330/330",
+  },
+  {
+    title: "Miku's Quantum Jam Session",
+    author: "QuantumQuirk",
+    date: "30.08.2023",
+    text: "In a parallel universe, Hatsune Miku jams with quantum particles, creating melodies that resonate across dimensions. Her holographic avatar becomes a conduit for cosmic harmonies, blurring the lines between music and the mysteries of the universe.",
+    textfull:
+      "Step into the realm of quantum quirkiness with Hatsune Miku! In a parallel universe where particles dance to the beat of their own drums, Miku becomes the maestro of the quantum jam session. Her holographic avatar becomes a conduit for cosmic harmonies, as she orchestrates melodies that resonate across dimensions. It's a mind-bending symphony where music transcends the boundaries of space and time, leaving listeners in awe of the wonders of the quantum world.",
+    likes: 567,
+    pic: "150/150",
+  },
+  {
+    title: "Miku's Time Travel Tango",
+    author: "TemporalTango",
+    date: "12.12.2022",
+    text: "Strap in for a time-traveling tango with Hatsune Miku! In a whirlwind of pixelated passion, she dances through the ages, waltzing with dinosaurs and jitterbugging with robots. With each step, she leaves a trail of temporal turbulence, proving that love knows no bounds, not even time.",
+    textfull:
+      "Get ready to tango through time with Hatsune Miku! In a whirlwind of pixelated passion, she dances across the ages, waltzing with dinosaurs and jitterbugging with robots. With each step, she leaves a trail of temporal turbulence, bending the fabric of reality with her boundless energy. It's a dance through the ages, where love knows no bounds, not even time itself. So grab your dancing shoes and prepare for a time-traveling tango like no other!",
+    likes: 876,
+    pic: "175/175",
+  },
+  {
+    title: "Miku's Cryptocurrency Concert",
+    author: "CryptoConductor",
+    date: "28.05.2024",
+    text: "Hatsune Miku takes the stage in a groundbreaking concert where admission is paid in cryptocurrency. Her holographic performances dazzle audiences as blockchain technology ensures transparency and security for fans worldwide. It's a digital revolution in the world of entertainment!",
+    textfull:
+      "Get ready for a revolutionary concert experience with Hatsune Miku! In a groundbreaking move, admission to her latest performance is paid exclusively in cryptocurrency. As fans enter the virtual venue, they're treated to dazzling holographic performances that push the boundaries of entertainment. With blockchain technology ensuring transparency and security, Miku's cryptocurrency concert is a digital revolution in the world of music.",
+    likes: 432,
+    pic: "140/140",
+  },
+  {
+    title: "Miku's Quantum Cuisine",
+    author: "QuantumChef",
+    date: "17.09.2023",
+    text: "Join Hatsune Miku on a culinary adventure through the quantum realm! Using quantum ingredients and holographic recipes, she creates dishes that defy the laws of gastronomy. Prepare your taste buds for a taste of the future!",
+    textfull:
+      "Prepare to tantalize your taste buds with Hatsune Miku's quantum cuisine! In a culinary adventure through the quantum realm, Miku combines exotic ingredients with holographic recipes to create dishes that defy the laws of gastronomy. From pixelated pastries to quantum quiches, each bite is a taste of the future. So grab your fork and join Miku on a journey through the flavors of tomorrow!",
+    likes: 723,
+    pic: "160/160",
+  }
 ];
