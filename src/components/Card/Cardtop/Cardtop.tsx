@@ -35,7 +35,7 @@ export default function Cardtop(props: CardProps) {
   const [newPic, setNewPic] = useState("");
   const [apiError, setApiError] = useState(false);
 
-  const apiUrl = "https://placekitten.com/";
+  const apiUrl = "https://miku-api.vercel.app";
 
   const fetchData = async () => {
     try {
@@ -45,7 +45,9 @@ export default function Cardtop(props: CardProps) {
       response = await fetch(apiUrl);
 
       if (response.ok) {
-        const picUrl = apiUrl + props.pic;
+        let randNum = Math.floor(Math.random() * 12)
+        const picUrl = apiUrl + "/pfp/" + props.pic + randNum + `.webp`
+
         setNewPic(picUrl);
       } else {
         throw new Error(`Network request failed with status ${response.status}`);

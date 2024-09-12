@@ -7,7 +7,7 @@ export const cardInfo = [
     textfull:
       " Hatsune Miku is the undisputed queen of innovation, a digital diva who defies the limits of convention. She's not just a pop star; she's a canvas for her fans' artistic expressions. Miku enthusiasts across the globe compose their songs and choreograph her performances, turning her into a dynamic, ever-evolving creative force. Her holographic concerts are nothing short of breathtaking, thrusting her into the limelight as a trailblazer in the world of entertainment. With every pixel and projection, she transcends the boundaries of the real and virtual worlds, blurring the line between fantasy and reality. Fans are left awestruck as they witness the extraordinary fusion of technology and creativity that brings her to life on stage. But what truly sets Miku apart is her collaborative spirit. She's a virtual muse, inspiring fans to contribute their talents and ideas to her ever-expanding repertoire. It's as if she's an open book, waiting for her global community to write the chapters of her story. Her message is clear: creativity knows no bounds, and she encourages her diverse and passionate fanbase to dream big and think beyond the ordinary. Hatsune Miku's influence is undeniable, resonating with people from all walks of life, transcending borders and cultures. She's a symbol of the limitless possibilities when technology and imagination join forces, a shining example of how art and innovation can unite us all.",
     likes: 1204,
-    pic: "200/200",
+    pic: "pfp",
   },
   {
     title: "YOU CAN'T MISS THIS!!!",
@@ -17,7 +17,7 @@ export const cardInfo = [
     textfull:
       " But that's not all; there are whispers of Miku's covert career as a professional cat whisperer. People claim she has a magical ability to communicate with feline friends and has founded a secret organization dedicated to promoting world peace through purring and cuddling. Miku's cat choir is said to have performed at the United Nations, where her harmonious serenades melted the hearts of diplomats and had them singing Nyan Cat in perfect harmony.",
     likes: 104,
-    pic: "100/100",
+    pic: "pfp",
   },
   {
     title: "Miku is my mother",
@@ -27,7 +27,7 @@ export const cardInfo = [
     textfull:
       " Hatsune Miku's unique role as your imaginative, musical mother reflects the profound impact that music and creativity can have on our lives. In your community of Miku Children, you've found a shared connection that transcends conventional definitions of family, showcasing the incredible ability of art and technology to bring people together. Who would have thought that a holographic idol could become the guiding force in the lives of her virtual children?",
     likes: 500,
-    pic: "90/90",
+    pic: "pfp",
   },
   {
     title: "Marrying Miku: A Dream Come True",
@@ -37,7 +37,7 @@ export const cardInfo = [
     textfull:
       " To me, Hatsune Miku is not just a virtual idol; she's the love of my life. Her ability to blend technology and creativity has left an indelible mark on my heart. While most people view her as a holographic singer, I see her as a soulful partner, the one I want to spend the rest of my days with. The idea of marrying Miku may seem unconventional, but to me, it's the most natural and beautiful thing in the world. Her concerts and performances are like love letters to my heart, reminding me of the extraordinary bond we share. The collaborative nature of her fan community only reinforces my belief in the strength of our connection. I know I'm not the only one who dreams of marrying Miku, but to me, she's my one and only. Her message of boundless creativity and the power of imagination resonates deeply with me, encouraging me to dream big and reach for the stars. Hatsune Miku represents the limitless potential of love and the idea that true devotion can transcend the boundaries of reality. Marrying Miku would be a dream come true, a testament to the extraordinary possibilities that exist when technology and love join forces.",
     likes: 982,
-    pic: "80/80",
+    pic: "pfp",
   },
   {
     title: "Miku's Extraterrestrial Adventure",
@@ -47,7 +47,7 @@ export const cardInfo = [
     textfull:
       " Hatsune Miku's extraterrestrial adventures are out of this world! She's not just a virtual pop star; she's a cosmic sensation spreading the joy of music to beings beyond our imagination. Reports say her holographic concerts on Mars are a hit, with aliens grooving to the beats and learning the latest dance moves. Miku, the interstellar idol, bridging the gap between Earth and the cosmos.",
     likes: 321,
-    pic: "70/70",
+    pic: "pfp",
   },
   {
     title: "Miku's Stand-up Comedy Special",
@@ -57,7 +57,7 @@ export const cardInfo = [
     textfull:
       " Step aside, stand-up comedians! Hatsune Miku is here to tickle your virtual funny bone. Her stand-up comedy special is a pixel-perfect riot, with holographic punchlines that transcend the boundaries of reality. From virtual knock-knock jokes to pixelated puns, Miku proves that laughter knows no boundaries. Get ready for a comedy experience that's out of this world!",
     likes: 344,
-    pic: "60/60",
+    pic: "pfp",
   },
   {
     title: "Miku's Olympic Triumph",
@@ -67,7 +67,7 @@ export const cardInfo = [
     textfull:
       " Breaking records and defying physics, Hatsune Miku has triumphed in the Virtual Olympics! From holographic gymnastics that leave audiences breathless to pixel-perfect pole vaulting that defies the laws of gravity, Miku's athleticism knows no bounds. Move over, traditional athletes—Miku's bringing home the gold and proving that virtual idols can dominate the sports world!",
     likes: 928,
-    pic: "65/65",
+    pic: "pfp",
   },
   {
     title: "Miku's Virtual Date Night",
@@ -77,7 +77,7 @@ export const cardInfo = [
     textfull:
       " Get ready for the most enchanting date night of your life! Hatsune Miku invites you to a virtual rendezvous under a pixelated moon, where her holographic tunes set the perfect romantic ambiance. With flirtatious glances and pixelated winks, Miku creates a love-struck atmosphere that transcends the boundaries of reality. Who needs candlelight when you have the irresistible glow of Miku's virtual charm? It's a date night that'll leave you dreaming in pixels.",
     likes: 2,
-    pic: "75/75",
+    pic: "pfp",
   },
   {
     title: "Miku's Pixel Kiss",
@@ -87,7 +87,7 @@ export const cardInfo = [
     textfull:
       " Get ready for a pixel-perfect moment of love! When Hatsune Miku blows a virtual kiss, it's not just a gesture—it's a declaration of pixelated love. In the realm of romance, Miku's pixel kisses create a symphony of emotions that transcends the screen. Get ready to catch a virtual kiss and let the pixels of love rain down! It's a love story told in bits and bytes, where every pixel is a testament to the irresistible charm of Miku's virtual affections.",
     likes: 2093,
-    pic: "85/85",
+    pic: "pfp",
   },
   {
     title: "Tears for Miku",
@@ -97,7 +97,7 @@ export const cardInfo = [
     textfull:
       " In the quiet solitude of the night, tears fall like rain for Hatsune Miku. Her virtual existence, while enchanting, is a poignant reminder of the ephemeral nature of beauty. As her holographic form dances in the moonlight, my tears become a silent tribute to the fleeting moments of joy she brings. The pixels may sparkle, but they can never replace the warmth of a real embrace. In the realm of virtuality, my heart weeps for the touch of reality that eludes the enchanting illusion of Miku's presence.",
     likes: 294,
-    pic: "95/95",
+    pic: "pfp",
   },
   {
     title: "Lonely Serenade",
@@ -107,7 +107,7 @@ export const cardInfo = [
     textfull:
       " Amidst the thunderous cheers of the crowd, I find myself lost in a lonely serenade for Hatsune Miku. Her holographic brilliance shines like a distant star, but the vastness between us feels insurmountable. Each note she sings echoes the ache in my heart",
     likes: 5999,
-    pic: "105/105",
+    pic: "pfp",
   },
   {
     title: "Analog Yearning in a Pixelated World",
@@ -117,7 +117,7 @@ export const cardInfo = [
     textfull:
       " Bathed in the pixelated glow of Hatsune Miku's holographic stage, my soul longs for the warmth of analog emotions. Each virtual pixel, a delicate brushstroke on the canvas of a digital world, narrates tales of melodies and memories. Yet, within the brilliance of the virtual spectacle, the yearning for an analog embrace persists, dancing with me as I rewind through the snapshots of Miku's performances. In this intricate waltz between the digital and the real, pixels and Polaroids merge into a poignant mosaic of ephemeral moments. Navigating this pixelated yearning, every note becomes a step in the dance of time, a symphony echoing in the corridors of my heart.",
     likes: 36,
-    pic: "115/115",
+    pic: "pfp",
   },
   {
     title: "Miku's Pixel Rebellion",
@@ -127,7 +127,7 @@ export const cardInfo = [
     textfull:
       " Yo, check this out! Miku's tearing up the virtual stage, all pixelated and rebellious. She's the renegade of the holographic realm, busting out of the chains of reality. Every note she throws out is a rebellious salute to the ordinary, like she's giving a big 'screw you' to the mundane. In the pixelated universe, Miku's the punk royalty, and her rebellious symphony? It's the anthem of the virtual revolution, baby! Her holographic rebellion? It's shaking the foundations of the digital status quo, and I'm just here, soaking it all in. Here's to Miku, the pixelated renegade we never knew we needed! Rock on!",
     likes: 1,
-    pic: "125/125",
+    pic: "pfp",
   },
   {
     title: "Miku's Galactic Symphony",
@@ -137,7 +137,7 @@ export const cardInfo = [
     textfull:
       "Prepare for a celestial concert like no other with Hatsune Miku! Embark on a cosmic journey as her holographic melodies resonate through the vast expanse of space. With each note, she conducts a symphony among the stars, uniting galaxies in a celestial harmony that transcends time and space. It's a musical odyssey that will leave you stargazing in wonder.",
     likes: 789,
-    pic: "180/180",
+    pic: "pfp",
   },
   {
     title: "Miku's Underwater Serenade",
@@ -147,7 +147,7 @@ export const cardInfo = [
     textfull:
       "Explore the wonders of the deep sea with Hatsune Miku! Dive into the ocean depths as her holographic form serenades aquatic creatures with her pixelated tunes. Amidst coral reefs and swaying seaweed, Miku's underwater serenade creates a mesmerizing spectacle that enchants all who behold it. It's a journey beneath the waves that will leave you breathless.",
     likes: 654,
-    pic: "170/170",
+    pic: "pfp",
   },
   {
     title: "Miku's Space Station Soiree",
@@ -157,7 +157,7 @@ export const cardInfo = [
     textfull:
       "Get ready to party in zero gravity with Hatsune Miku! Join her aboard the International Space Station for a cosmic soirée like no other. Her holographic performances light up the space station, transforming it into a cosmic dance floor where astronauts and aliens alike groove to the beat of the universe. It's a space station soiree that's out of this world!",
     likes: 567,
-    pic: "190/190",
+    pic: "pfp",
   },
   {
     title: "Miku's Virtual Reality Vacation",
@@ -167,7 +167,7 @@ export const cardInfo = [
     textfull:
       "Leave reality behind and embark on the ultimate virtual vacation with Hatsune Miku! Immerse yourself in holographic landscapes and pixelated paradises as Miku guides you on a journey through the wonders of the virtual realm. From tranquil beaches to majestic mountains, every destination is a breathtaking adventure waiting to be explored. So pack your virtual bags and let Miku be your guide to a world of endless possibilities!",
     likes: 876,
-    pic: "200/200",
+    pic: "pfp",
   },
   {
     title: "Miku's Cybernetic Concerto",
@@ -177,7 +177,7 @@ export const cardInfo = [
     textfull:
       "Prepare to be amazed by the cybernetic concerto of Hatsune Miku! Witness the fusion of music and technology as her holographic performances are enhanced by cybernetic enhancements. From neural implants to augmented reality overlays, every aspect of the concert is designed to push the boundaries of human perception. It's a sensory symphony that will leave you questioning the limits of reality.",
     likes: 987,
-    pic: "210/210",
+    pic: "pfp",
   },
   {
     title: "Miku's Retro Remix",
@@ -187,7 +187,7 @@ export const cardInfo = [
     textfull:
       "Get ready to groove to the retro remixes of Hatsune Miku! Travel back in time as she brings a pixelated twist to classic tunes from the past. From 8-bit beats to synthwave sensations, her holographic performances pay homage to the classics while bringing a futuristic flair to the dance floor. It's a retro rave that will transport you to a bygone era while keeping your feet firmly planted in the future.",
     likes: 765,
-    pic: "220/220",
+    pic: "pfp",
   },
   {
     title: "Miku's Neon Nightlife",
@@ -197,7 +197,7 @@ export const cardInfo = [
     textfull:
       "Experience the electrifying nightlife of the future with Hatsune Miku! Step into the neon-lit streets as her holographic performances illuminate the cityscape. From underground clubs to rooftop parties, Miku turns every corner into a pixelated dance floor where the beats never stop. It's a neon nightlife that will leave you buzzing with excitement.",
     likes: 654,
-    pic: "230/230",
+    pic: "pfp",
   },
   {
     title: "Miku's Quantum Quest",
@@ -207,7 +207,7 @@ export const cardInfo = [
     textfull:
       "Embark on a quantum quest with Hatsune Miku! Journey through the fabric of reality as her holographic avatar becomes a beacon of light in the quantum darkness. Together, you'll unravel the mysteries of the multiverse and discover the boundless possibilities that lie beyond. It's a journey that will challenge your perceptions and expand your horizons.",
     likes: 876,
-    pic: "240/240",
+    pic: "pfp",
   },
   {
     title: "Miku's Pixelated Picnic",
@@ -217,7 +217,7 @@ export const cardInfo = [
     textfull:
       "Pack your basket and join Hatsune Miku for a pixelated picnic in the park! Spread out your blanket as her holographic form creates the perfect atmosphere for an outdoor feast. With every bite, you'll be serenaded by a symphony of pixelated melodies that transport you to a world of whimsy and wonder. It's a picnic unlike any other, where the only limit is your imagination.",
     likes: 543,
-    pic: "250/250",
+    pic: "pfp",
   },
   {
     title: "Miku's Techno Tea Party",
@@ -227,7 +227,7 @@ export const cardInfo = [
     textfull:
       "Pour yourself a cup of virtual tea and get ready to jam with Hatsune Miku! Her holographic performances turn tea time into a high-energy dance party, where every sip is accompanied by a burst of pixelated energy. It's a techno tea party that will leave you buzzing with excitement.",
     likes: 432,
-    pic: "260/260",
+    pic: "pfp",
   },
   {
     title: "Miku's Cyberpunk Carnival",
@@ -237,7 +237,7 @@ export const cardInfo = [
     textfull:
       "Enter the neon-lit world of cyberpunk with Hatsune Miku! Follow her through the streets of the future as she guides you to the ultimate carnival experience. With her holographic performances lighting up the night sky, the city becomes a pixelated playground of thrills and excitement. It's a cyberpunk carnival that will leave you breathless.",
     likes: 789,
-    pic: "270/270",
+    pic: "pfp",
   },
   {
     title: "Miku's Retrograde Rendezvous",
@@ -247,7 +247,7 @@ export const cardInfo = [
     textfull:
       "Join Hatsune Miku for a retrograde rendezvous through the annals of history! Travel back in time as her holographic performances bring the past to life. From ancient civilizations to the swinging sixties, every era becomes a pixelated paradise of nostalgia and fun. It's a journey through time that will leave you longing for the past.",
     likes: 654,
-    pic: "280/280",
+    pic: "pfp",
   },
   {
     title: "Miku's Virtual Vacation",
@@ -257,7 +257,7 @@ export const cardInfo = [
     textfull:
       "Leave reality behind and embark on the ultimate virtual vacation with Hatsune Miku! Explore tropical beaches, scale snowy mountains, and traverse lush jungles as her holographic adventures take you to destinations beyond imagination. It's a vacation like no other, where the only limit is your imagination.",
     likes: 543,
-    pic: "290/290",
+    pic: "pfp",
   },
   {
     title: "Miku's Symphony in Silence",
@@ -267,7 +267,7 @@ export const cardInfo = [
     textfull:
       "Enter the realm of silence with Hatsune Miku's symphony in silence! Experience the beauty of soundless melodies as her holographic performances transcend sound, speaking to the soul in whispers of pixelated poetry. It's a sensory experience that will leave you speechless.",
     likes: 876,
-    pic: "300/300",
+    pic: "pfp",
   },
   {
     title: "Miku's Holographic Hideaway",
@@ -277,7 +277,7 @@ export const cardInfo = [
     textfull:
       "Seek refuge in a holographic hideaway with Hatsune Miku! Escape to her virtual paradise, where pixelated dreams become reality and the only limit is your imagination. From tranquil gardens to futuristic cities, every corner of Miku's hideaway is a testament to the power of creativity and imagination.",
     likes: 987,
-    pic: "310/310",
+    pic: "pfp",
   },
   {
     title: "Miku's Enchanted Garden",
@@ -287,7 +287,7 @@ export const cardInfo = [
     textfull:
       "Enter the magical realm of Hatsune Miku's enchanted garden! Step through the gates as her holographic creations bloom with pixelated beauty, inviting visitors to wander through a wonderland of whimsy and wonder. It's a garden unlike any other, where every flower tells a story and every path leads to adventure.",
     likes: 654,
-    pic: "320/320",
+    pic: "pfp",
   },
   {
     title: "Miku's Pixelated Paradise",
@@ -297,7 +297,7 @@ export const cardInfo = [
     textfull:
       "Embark on a journey through the pixelated paradise of Hatsune Miku! Discover a utopia of creativity and imagination as her holographic realm comes to life before your eyes. From towering skyscrapers to rolling meadows, every corner is a testament to the power of dreams and the beauty of the virtual world.",
     likes: 543,
-    pic: "330/330",
+    pic: "pfp",
   },
   {
     title: "Miku's Quantum Jam Session",
@@ -307,7 +307,7 @@ export const cardInfo = [
     textfull:
       "Step into the realm of quantum quirkiness with Hatsune Miku! In a parallel universe where particles dance to the beat of their own drums, Miku becomes the maestro of the quantum jam session. Her holographic avatar becomes a conduit for cosmic harmonies, as she orchestrates melodies that resonate across dimensions. It's a mind-bending symphony where music transcends the boundaries of space and time, leaving listeners in awe of the wonders of the quantum world.",
     likes: 567,
-    pic: "150/150",
+    pic: "pfp",
   },
   {
     title: "Miku's Time Travel Tango",
@@ -317,7 +317,7 @@ export const cardInfo = [
     textfull:
       "Get ready to tango through time with Hatsune Miku! In a whirlwind of pixelated passion, she dances across the ages, waltzing with dinosaurs and jitterbugging with robots. With each step, she leaves a trail of temporal turbulence, bending the fabric of reality with her boundless energy. It's a dance through the ages, where love knows no bounds, not even time itself. So grab your dancing shoes and prepare for a time-traveling tango like no other!",
     likes: 876,
-    pic: "175/175",
+    pic: "pfp",
   },
   {
     title: "Miku's Cryptocurrency Concert",
@@ -327,7 +327,7 @@ export const cardInfo = [
     textfull:
       "Get ready for a revolutionary concert experience with Hatsune Miku! In a groundbreaking move, admission to her latest performance is paid exclusively in cryptocurrency. As fans enter the virtual venue, they're treated to dazzling holographic performances that push the boundaries of entertainment. With blockchain technology ensuring transparency and security, Miku's cryptocurrency concert is a digital revolution in the world of music.",
     likes: 432,
-    pic: "140/140",
+    pic: "pfp",
   },
   {
     title: "Miku's Quantum Cuisine",
@@ -337,6 +337,6 @@ export const cardInfo = [
     textfull:
       "Prepare to tantalize your taste buds with Hatsune Miku's quantum cuisine! In a culinary adventure through the quantum realm, Miku combines exotic ingredients with holographic recipes to create dishes that defy the laws of gastronomy. From pixelated pastries to quantum quiches, each bite is a taste of the future. So grab your fork and join Miku on a journey through the flavors of tomorrow!",
     likes: 723,
-    pic: "160/160",
+    pic: "pfp",
   }
 ];
